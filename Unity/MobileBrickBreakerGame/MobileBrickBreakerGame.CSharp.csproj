@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DeathTriggerCollider.cs" />
+    <Compile Include="Assets\Scripts\BallLayerLogic.cs" />
     <Compile Include="Assets\Scripts\BallMovement.cs" />
     <Compile Include="Assets\Scripts\BrickBehavior.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
