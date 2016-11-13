@@ -34,7 +34,7 @@ public class BallMovement : MonoBehaviour {
         if(other.gameObject.tag == "Brick")
         {
             var cloneParticle = Instantiate(brickParticle, transform.position, Quaternion.identity);
-            Destroy(other.gameObject);
+            Destroy(Util.FindHighestParent(other.transform, "Brick").gameObject);
             Destroy(cloneParticle, 0.5f);
             bottomScore++;
             bottomScoreText.text = "Score: " + bottomScore;
