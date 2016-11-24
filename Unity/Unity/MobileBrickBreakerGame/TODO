@@ -1,7 +1,36 @@
 Bernie:
   1. Stop being gay
+  2. Stop being gay
   
 Andrew
-  
+   1. Sound effects.
+   2. Format and background of game
+   3. More complex physics bounce pattern.
 
 Nimish  
+   1. Dragging the finger for mobile controls 
+   2.Powerups:
+    How it will work:
+      -Ball touches the powerup will activate the powerup.
+      -Paddle who last touches the ball will get the powerup.
+   Different types of Powerups(feel free to add or change any of these):
+    -Double the amount of balls
+    -Make opponent paddle smaller
+    -Burn through columns of bricks
+    -Stick to paddle
+    
+Undecided Tasks(feel free to add or change any of these):
+ 
+  
+  3. Random Instantiation
+    How it might work:
+      Every time someone gets a point, the blocks on the victim's side changes position.
+    Other concepts:
+      -Plain random instantiation
+      -Create a datastructure containing different brick positions and randomly call an index.
+  4. Customizable Colors for brick and paddle.
+ 
+  6. Setting the trajectory when ball is a child.
+
+  8. Artificial Intelligence
+ 
